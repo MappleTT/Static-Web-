@@ -1,0 +1,343 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Microsoft YaHei UI;
+}
+
+.header{
+    width:100%;
+    height:80px;
+    background-color:rgb(7,203,201);
+    position:fixed;
+    top:0;
+}
+
+.header .logo{
+    position: absolute;
+    float: left;
+    top: 50%;
+    margin-top: -24px;
+    margin-left: 5%;
+}
+
+
+.header ul li{
+    padding:0 10px;
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header ul li:hover{
+    background-color: black;
+}
+
+.header ul {
+    line-height: 80px;
+    float: right;
+    margin-right: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    position: relative;
+    margin-top: 80px;
+}
+
+.banner .img{
+    width: 100%;
+    height: 600px;
+}
+
+.banner .mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.banner .mask ul {
+    position:relative;
+    width:40%;
+    margin:0 auto 0 auto;
+    top:10%;
+}
+
+.banner .mask ul li{
+    border:2px solid white;
+    line-height:2;
+    color:white;
+    margin-bottom:2em;
+    text-indent:1em;
+    list-style: none;
+}
+
+.banner .mask ul li:hover{
+    border:2px solid #07cbc9;
+}
+
+.banner .mask .banner-write{
+    height: 8em;
+}
+
+.banner .mask ul .banner-send{
+    width: 27%;
+    margin: 0 auto;
+}
+
+.banner .mask ul .banner-send:hover{
+    border-color:transparent;
+    background-color:#07cbc9;
+}
+
+.about-top{
+    width:580px;
+    height:636px;
+    position:relative;
+    margin:0 auto;
+    padding-top:60px;
+    margin-bottom:100px;
+}
+
+.about-top .title{
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.about-top .line{
+    border-bottom:  2px solid #07cbc9;
+    width: 30px;
+    margin: 20px auto;
+}
+
+.about-top .font{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+
+
+
+.about-top .image {
+    width: 600px;
+    height: 380px;
+    position: absolute;
+}
+
+.about-top .imgae img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-top .image .left{
+    width:368px;
+    height:90%;
+    position:absolute;
+    left:-236px;
+    top:0;
+    font-size:30px;
+}
+
+.about-top .image .left .word-left{
+    background-color: rgba(255,255,255,0.4);
+    font-size: 20px;
+    opacity: 0.4;
+    box-sizing: border-box;
+    border: 1px solid rgb(197,197,197);
+    line-height: 1.5;
+    height: 80%;
+    width: 350px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.about-top .exp{
+    padding:10px 10px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    width: 120px;
+    background-color: black;
+    line-height: 2.4;
+    margin-top: 30px;
+}
+
+.about-top .image .left .exp:hover{
+    background-color: rgb(255,255,255);
+    color: black;
+    border: 1px solid black;
+}
+
+
+.about-top .image .right{
+    position:absolute;
+    right:-320px;
+    top: 0;
+    text-align:center;
+}
+.about-top .image .right >div{
+    width:240px;
+    border:1px solid rgb(7,203,201);
+    font-size:25px;
+    font-weight:bold;
+    padding:20px 0;
+    margin-bottom:20px;
+}
+.about-top .image .right span{
+    font-size:20px;
+    font-weight:normal;
+}
+
+
+
+
+.about-bottom{
+    width: 100%;
+    height: 600px;
+}
+
+
+.about-bottom li{
+    float: left;
+    list-style: none;
+}
+
+.about-bottom ul li .img1{
+    float: left;
+    width: 345px;
+    height: 320px;
+}
+
+.about-bottom ul li .contain1{
+    background-color: #07cbc9;
+    width: 350px;
+    height: 320px;
+    float: left;
+}
+
+.about-bottom ul li .div1{
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.about-bottom ul li .div3{
+
+    font-size: 10px;
+    padding-left: 30px;
+    color: white;
+}
+
+.about-bottom ul li .div2{
+    padding-left: 30px;
+    color: white;
+}
+
+.about-bottom ul li .explore{
+
+    margin: 30px auto;
+    border: 1px solid black;
+    width: 90px;
+    height: 30px;
+    padding: 10px 5px;
+    background-color: black;
+    font-size: 20px;
+}
+
+.about-bottom ul li .explore:hover{
+    background-color: rgba(255,255,255,0.4);
+}
+
+
+.about-bottom ul li .contain2{
+    width: 345px;
+    height: 320px;
+    background-color: #07cbc9;
+    margin: 0;
+    float: left;
+}
+
+.about-bottom ul li .img2{
+    float: left;
+    width: 350px;
+    height: 320px;
+}
+
+
+
+
+.gallery {
+    width: 100%;
+}
+
+
+.gallery .gallery-content .title{
+    padding-top: 3em;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.gallery .gallery-content .contain3{
+    text-align: center;
+    margin: 20px auto;
+    width: 40em;
+    font-size: 20px;
+}
+
+.gallery .gallery-content .line{
+    border-bottom:  2px solid #07cbc9;
+    width: 30px;
+    margin: 20px auto;
+}
+
+
+
+
+.gallery-img .img{
+    width:1182px;
+    margin:40px auto;
+    overflow:hidden;
+}
+
+.gallery-img li{
+    float:left;
+    width:360px;
+    height: 300px;
+    background-color:black;
+    color:white;
+    margin-left:20px ;
+    margin-top: 20px;
+}
+
+.gallery-img li div{
+    height:60px;
+    line-height:60px;
+    margin-left: 20px;
+}
+
+
+.footer {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: #07cbc9;
+}
